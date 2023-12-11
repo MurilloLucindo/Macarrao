@@ -1,0 +1,89 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+
+body {
+  background-color: #4F4A45; /* essa poha muda a cor do fundo */
+  --corlaranja:#ED7D31;
+  --corcinza: #6C5F5B;
+  color: #F6F1EE;
+}
+.titulo {
+  background-color: var(--corlaranja);
+  padding: 5%;
+  margin: 1.5% 1%;
+  border-radius: 100px; /* Adiciona cantos arredondados à caixa */
+  box-shadow: 0 0 10% rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+.titulo h1 {
+  /*color: #333; /* Cor do texto do título */
+  /*margin: 0%; /* Espaçamento inferior do título */
+  font-size: 20rem;
+}
+.main_conteiner{
+  height: 30vw;
+  width: 100vw;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+.conteiner2{
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+.rank{
+  height: 100%;
+  width: 30%;
+ background-color: var(--corcinza);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+.ta_comeno{
+  height: 100%;
+  width: 50%;
+  background-color: var(--corlaranja);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+.comeu_semana{
+  height: 100%;
+  width: 50%;
+  background-color: var(--corcinza);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.noticia{
+  height: 50%;
+  width: 100%;
+  margin: 5px;
+  background-color: var(--corcinza);
+}
+.destasques_container{
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+  flex-direction: row;
+  width: 100%;
+}
