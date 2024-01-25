@@ -85,7 +85,43 @@ body {
   margin-bottom: 0;
   background-color: var(--corcinza);
   border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
+.slider {
+  width: 100%; /* Ajuste de acordo com o número de imagens */
+  height: 100%;
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+  /*animation: slide 1s infinite;*/
+}
+.slide {
+  min-width: 100%;
+  height: auto;
+  flex: 1 0 auto;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  font-size: 2em;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+/*@keyframes slide {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-33.33%); } /* Ajuste de acordo com o número de imagens *
+  66% { transform: translateX(-66.66%); } * Ajuste de acordo com o número de imagens *
+  100% { transform: translateX(-100%); }
+}*/
 .destasques_container{
   height: 50%;
   display: flex;
