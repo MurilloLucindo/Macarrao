@@ -8,6 +8,7 @@
 <body>
     <!-- essa poha puxa os stylos dos baguio -->
     <link rel="stylesheet" href="./estilosfodas.css">
+    <link rel="stylesheet" href="./estiloSlider.css">
     <link rel="java" href="./botaomaldito.js">
 
     <div class="titulo">
@@ -34,8 +35,10 @@
                     <img class="slide" src="https://mega.ibxk.com.br/2014/09/12/12185333712706.gif?format=jpg">
                     <img class="slide" src="https://i.makeagif.com/media/12-24-2023/QEBLWT.gif">
                 </div>
-                <button class="prev">❮</button>
-                <button class="next">❯</button>
+
+                <script src="botaomaldito.js"></script>
+                <button class="prev" onclick="mover(-1)">❮</button>
+                <button class="next" onclick="mover(1)">❯</button>
             </div>
 
         </div>
