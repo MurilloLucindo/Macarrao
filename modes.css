@@ -1,0 +1,94 @@
+:root {
+    filter:invert(0);
+    --background-color: #4F4A45;
+    --corlaranja: #ED7D31;
+    --corcinza: #6C5F5B;
+    --text-color: #F6F1EE;
+    --hamburger-color: #f9f9f9;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 1s ease;
+}
+
+.titulo, .rank, .prev, .next, .ta_comeno, .comeu_semana, .noticia, .invert-mode img, img {
+    transition: background-color 1s ease, color 1s ease, filter 1s ease, transform 1s ease;
+}
+img {
+    filter: invert(0);
+    transform: scaleX(1);
+}
+.hamburger {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -0.5em;
+    color: var(--hamburger-color);
+    font-size: 2em;
+}
+
+.theme-panel {
+    display: none;
+    position: absolute;
+    background-color: var(--corcinza);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: -0.5em;
+    z-index: 1;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+.theme-panel.show {
+    transform: translateX(0);
+}
+
+.theme-panel a {
+    color: var(--text-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.theme-panel a:hover {
+    background-color: var(--corlaranja);
+}
+
+
+.dark-mode {
+    filter:invert(0);
+    --background-color: #282828;
+    --corlaranja: #00564d;
+    --corcinza: #363636;
+    --text-color: #F6F1EE;
+    --hamburger-color: var(--corlaranja);
+}
+.pink-mode {
+    filter:invert(0);
+    --background-color: #FCAEAE;
+    --corlaranja: #FF6666;
+    --corcinza: #FF8989;
+    --text-color: #FFEADD;
+    --hamburger-color: var(--corlaranja);
+}
+.gelo-mode {
+    filter:invert(0);
+    --background-color: #3a1379;
+    --corlaranja: #018e70;
+    --corcinza: #7cafe3;
+    --text-color: #ffffff;
+    --hamburger-color: var(--corlaranja);
+}
+.invert-mode {
+    --background-color: #b0b5ba;
+    --corlaranja: #1282ce;
+    --corcinza: #93a0a4;
+    --text-color: #090e11;
+    --hamburger-color: var(--corlaranja);
+}
+.invert-mode img {
+    filter: invert(1);
+    transform: scaleX(-1);
+}

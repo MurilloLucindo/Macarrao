@@ -9,20 +9,21 @@
     height: auto;
     flex: 1 0 auto;
 }
-
 .prev, .next {
     position: absolute;
-    top: 50%;
-    font-size: 2em;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    font-size: 14em;
+    color: var(--corlaranja);
+    opacity: 0.7;
+    background-color: rgba(0,0,0,0.1);
     border: none;
     cursor: pointer;
     z-index: 10;
 }
 .prev {
-    left: 10px;
+    left: 0px;
+    
 }
 .next {
-    right: 10px;
+    right: 0px;
 }

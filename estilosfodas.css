@@ -1,12 +1,13 @@
 *{
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 } 
 body {
-  background-color: #4F4A45; /* essa poha muda a cor do fundo */
+  /* background-color: #4F4A45; /* essa poha muda a cor do fundo *
   --corlaranja:#ED7D31;
   --corcinza: #6C5F5B;
-  color: #F6F1EE;
+  color: #F6F1EE; */
+  /* transition: background-color 0.5s ease; */
 }
 .titulo {
   background-color: var(--corlaranja);
@@ -23,7 +24,7 @@ body {
 .titulo h1 {
   /*color: #333; /* Cor do texto do título */
   /*margin: 0%; /* Espaçamento inferior do título */
-  font-size: 8rem;
+  font-size: 7rem;
 }
 .main_conteiner{
   height: 30vw;
@@ -88,7 +89,6 @@ body {
   position: relative;
   overflow: hidden;
 }
-
 .destasques_container{
   height: 50%;
   display: flex;
