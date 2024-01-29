@@ -81,6 +81,30 @@ img {
     --text-color: #ffffff;
     --hamburger-color: var(--corlaranja);
 }
+.hub-mode {
+    filter:invert(0);
+    --background-color: #1b1b1b;
+    --corlaranja: #ffa31a;
+    --corcinza: #292929;
+    --text-color: #ffffff;
+    --hamburger-color: var(--corlaranja);
+}
+.roblox-mode {
+    filter:invert(0);
+    --background-color: #176baa;
+    --corlaranja: #f4cc43;
+    --corcinza: #a5bc50;
+    --text-color: black;
+    --hamburger-color: var(--corlaranja);
+}
+.mine-mode {
+    filter:invert(0);
+    --background-color: #61371F;
+    --corlaranja: #477A1E;
+    --corcinza: #8FCA5C;
+    --text-color: black;
+    --hamburger-color: var(--corlaranja);
+}
 .invert-mode {
     --background-color: #b0b5ba;
     --corlaranja: #1282ce;
