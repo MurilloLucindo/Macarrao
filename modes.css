@@ -105,6 +105,22 @@ img {
     --text-color: black;
     --hamburger-color: var(--corlaranja);
 }
+.white-mode {
+    filter:invert(0);
+    --background-color: white;
+    --corlaranja: white;
+    --corcinza: white;
+    --text-color: white;
+    --hamburger-color: black;
+}
+.black-mode {
+    filter:invert(0);
+    --background-color: black;
+    --corlaranja: black;
+    --corcinza: black;
+    --text-color: black;
+    --hamburger-color: white;
+}
 .invert-mode {
     --background-color: #b0b5ba;
     --corlaranja: #1282ce;
