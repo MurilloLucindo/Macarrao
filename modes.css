@@ -121,6 +121,14 @@ img {
     --text-color: black;
     --hamburger-color: white;
 }
+.o3d-mode {
+    filter:invert(0);
+    --background-color: blue;
+    --corlaranja: red;
+    --corcinza: red;
+    --text-color: blue;
+    --hamburger-color: black;
+}
 .invert-mode {
     --background-color: #b0b5ba;
     --corlaranja: #1282ce;
