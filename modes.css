@@ -129,6 +129,15 @@ img {
     --text-color: blue;
     --hamburger-color: black;
 }
+.haker-mode {
+    filter:invert(0);
+    --background-color: black;
+    --background-image: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif');
+    --corlaranja: green;
+    --corcinza: green;
+    --text-color: black;
+    --hamburger-color: white;
+}
 .invert-mode {
     --background-color: #b0b5ba;
     --corlaranja: #1282ce;
