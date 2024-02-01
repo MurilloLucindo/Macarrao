@@ -55,8 +55,14 @@ img {
 .theme-panel a:hover {
     background-color: var(--corlaranja);
 }
-
-
+.all{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    margin-top: -20px;
+    background-image: var(--background);
+}
 .dark-mode {
     filter:invert(0);
     --background-color: #282828;
@@ -131,8 +137,18 @@ img {
 }
 .haker-mode {
     filter:invert(0);
-    --background-color: black;
-    --background-image: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif');
+    --background-color: transparent;
+    --background: url('https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif');
+    --corlaranja: green;
+    --corcinza: green;
+    --text-color: black;
+    --hamburger-color: white;
+}
+.haker2-mode {
+    filter:invert(0);
+    --background-color: transparent;
+    --background: url('https://i.pinimg.com/originals/61/65/cb/6165cba36c16381449d0be75d2d6a85c.gif');
+    background-repeat: no-repeat;
     --corlaranja: green;
     --corcinza: green;
     --text-color: black;
